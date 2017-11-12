@@ -1,0 +1,15 @@
+Les fonctions mathématiques standard du langage PASCAL sont :
+
+ABS(argument) 	renvoie la valeur absolue de l'argument
+ACRTAN(argument)	renvoie l'arctangente de l'argument 
+COS(argument) 	renvoie le cosinus de l'argument
+EXP(argument) 	renvoie l'exponentielle de l'argument
+FRAC(argument) 	renvoie la partie décimale de l'argument
+INT(argument) 	renvoie la partie entière de l'argument
+LN(argument) 		renvoie le logarithme népérien de l'argument
+ROUND(argument) 	renvoie l'arrondi de l'argument à l'entier le plus proche
+SIN(argument) 	renvoie le sinus de l'argument
+SQR(argument) 	renvoie le carré de l'argument
+SQRT(argument) 	renvoie la racine carrée de l'argument
+
+Les arguments de toutes ces fonctions doivent être réels, excepté pour la fonction ABS dont l'argument peut être soit entier, soit réel.

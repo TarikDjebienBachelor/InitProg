@@ -1,0 +1,20 @@
+##########################################################
+#                                                        #
+# Commande fpcompile =                                   #
+#       fpc avec différentes options                     #
+#   pour utilisation en TP d’info                        #
+# date dernière version : 11 novembre 2007               #
+#                                                        #
+##########################################################
+# -Mobjfpc pour la compatibbilité avec Delphi
+# -Sh pour que le type STRING soit équivalent à ANSISTRING
+# -Cr pour la vérification des intervalles
+# -gl pour l’indication des lignes de source où se produisent les
+#     erreurs à l’exécution
+# ATTENTION : l’option -Mdelphi doit figurer avant l’option -Sh
+fpc -Mdelphi \
+    -Sh \
+    -Fu<chemin> \
+    -Cr \
+    -gl \
+$*

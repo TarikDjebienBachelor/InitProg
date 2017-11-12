@@ -1,0 +1,8 @@
+PROGRAM Reste;
+VAR
+	A,B,R: INTEGER;
+BEGIN
+	READLN(A,B);
+	R := A - B*INT(A/B);
+	WRITELN(R);
+END.
